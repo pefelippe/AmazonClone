@@ -1,6 +1,6 @@
 import React from "react";
 
-import Product from "./Product/Product";
+import Product from "../Product/Product";
 
 import "./Home.css";
 
