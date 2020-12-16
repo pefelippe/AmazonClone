@@ -22,6 +22,8 @@ function Product({ id, title, image, price, rating }) {
 
   return (
     <div className="product">
+
+      <img src={image} alt="" className="src" />
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
@@ -32,7 +34,6 @@ function Product({ id, title, image, price, rating }) {
           <p>{"⭐".repeat(rating)}</p>
         </div>
       </div>
-      <img src={image} alt="" className="src" />
 
       <button onClick={addToBasket}>Add to Basket</button>
     </div>

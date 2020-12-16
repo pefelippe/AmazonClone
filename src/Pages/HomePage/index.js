@@ -10,30 +10,9 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://images-na.ssl-images-amazon.com/images/G/32/kindle/devices/2020/Alexa/GW/Dezembro/W51/1500x600_cinza_2._CB413154209_.jpg"
           alt=""
         />
-
-        <div className="home__row">
-          <Product
-            id="131313"
-            title="The lean startup"
-            price={29.59}
-            image={
-              "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
-            }
-            rating={5}
-          />
-          <Product
-            id="3333"
-            title="The lean startup"
-            price={29.59}
-            image={
-              "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
-            }
-            rating={5}
-          />
-        </div>
 
         <div className="home__row">
           <Product
@@ -56,6 +35,27 @@ function Home() {
           />
           <Product
             id="111"
+            title="The lean startup"
+            price={29.59}
+            image={
+              "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+            }
+            rating={5}
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="131313"
+            title="The lean startup"
+            price={29.59}
+            image={
+              "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+            }
+            rating={5}
+          />
+          <Product
+            id="3333"
             title="The lean startup"
             price={29.59}
             image={
